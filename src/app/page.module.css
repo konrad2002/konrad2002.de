@@ -13,5 +13,12 @@
   min-height: 100svh;
   padding: 80px;
   gap: 64px;
-  font-family: var(--font-geist-sans);
+  font-family: var(--font-roboto);
+}
+
+.mainTitle {
+  font-size: 348px;
+  font-weight: 1000;
+  line-height: 2;
+  color: var(--foreground);
 }
