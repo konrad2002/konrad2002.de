@@ -1,0 +1,25 @@
+.header {
+    border-bottom: 1px solid lightgray;
+    padding: 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.headerTitle {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    width: 130px;
+}
+
+.headerLinks {
+    display: inline-block;
+    float: right;
+}
+
+.headerLink {
+    display: inline-block;
+    margin-left: 14px;
+}

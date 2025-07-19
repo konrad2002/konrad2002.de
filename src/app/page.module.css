@@ -6,8 +6,7 @@
   --button-primary-hover: #383838;
   --button-secondary-hover: #f2f2f2;
 
-  display: grid;
-  grid-template-rows: 20px 1fr 20px;
+  display: block;
   align-items: center;
   justify-items: center;
   min-height: 100svh;
@@ -17,8 +16,22 @@
 }
 
 .mainTitle {
-  font-size: 348px;
-  font-weight: 1000;
-  line-height: 2;
+  line-height: 1;
   color: var(--foreground);
+  margin-top: calc(50vh - 80px);
+  font-weight: 1000;
+  font-size: 100px;
+}
+
+.personLabel {
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 24px;
+}
+
+.titleContent {
+  font-size: 50px;
+  font-weight: 400;
+  vertical-align: middle;
+  display: inline-block;
 }
