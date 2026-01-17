@@ -90,7 +90,6 @@
     padding: 0.4rem 0;
     color: var(--foreground);
     border-bottom: 1px solid var(--border);
-    padding-bottom: 0.4rem;
 }
 
 .skillGroup li:last-child {
