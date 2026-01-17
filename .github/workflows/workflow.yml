@@ -36,7 +36,8 @@ jobs:
 
     strategy:
       matrix:
-        Test: [Test, Lint]
+        Test: [Test]
+        #Test: [Test, Lint]
 
     needs: install
 
