@@ -17,3 +17,28 @@
     margin-bottom: 2rem;
     line-height: 1.6;
 }
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.skillsGroup {
+    border: 1px solid var(--border);
+    padding: 1.25rem 1.5rem;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.skillsHeading {
+    margin: 0 0 1rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--accent);
+}
+
+.badgeList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
