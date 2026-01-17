@@ -27,10 +27,40 @@ export default function CVPage() {
                     <Timeline items={cv.education} />
                 </Section>
 
+                <Section title="Projects">
+                    <Timeline items={cv.projects.map(p => ({
+                        year: p.year,
+                        title: p.title,
+                        organization: '',
+                        description: p.description,
+                        tags: p.tags
+                    }))} />
+                </Section>
+
+                <Section title="Honors and Awards">
+                    <div className={styles.honors}>
+                        {cv.honors.map(honor => (
+                            <div key={honor.title} className={styles.honorItem}>
+                                <div className={styles.honorYear}>{honor.year}</div>
+                                <div className={styles.honorContent}>
+                                    <h3 className={styles.honorTitle}>{honor.title}</h3>
+                                    <div className={styles.honorOrganization}>{honor.organization}</div>
+                                    <p className={styles.honorDescription}>{honor.description}</p>
+                                    {honor.link && (
+                                        <a href={honor.link} target="_blank" rel="noopener noreferrer" className={styles.honorLink}>
+                                            Learn more →
+                                        </a>
+                                    )}
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </Section>
+
                 <Section title="Skills">
                     <div className={styles.skills}>
                         <div className={styles.skillsGroup}>
-                            <h3 className={styles.skillsHeading}>Technical</h3>
+                            <h3 className={styles.skillsHeading}>Technical Skills</h3>
                             <div className={styles.badgeList}>
                                 {cv.skills.technical.map(skill => (
                                     <Badge key={skill} variant="default">{skill}</Badge>
@@ -38,10 +68,10 @@ export default function CVPage() {
                             </div>
                         </div>
                         <div className={styles.skillsGroup}>
-                            <h3 className={styles.skillsHeading}>Soft Skills</h3>
+                            <h3 className={styles.skillsHeading}>Languages</h3>
                             <div className={styles.badgeList}>
-                                {cv.skills.soft.map(skill => (
-                                    <Badge key={skill} variant="secondary">{skill}</Badge>
+                                {cv.skills.languages.map(language => (
+                                    <Badge key={language} variant="secondary">{language}</Badge>
                                 ))}
                             </div>
                         </div>

@@ -1,63 +1,104 @@
 {
   "education": [
     {
-      "year": "2024 - Present",
-      "title": "Master of Science in Computer Science",
-      "organization": "Technical University",
-      "description": "Specializing in distributed systems and software architecture. Currently working on master's thesis about real-time data processing in distributed environments.",
-      "tags": ["Distributed Systems", "Software Architecture", "Algorithms"]
+      "year": "October 2021 - October 2025",
+      "title": "B. Sc. Computer Science",
+      "organization": "Technical University of Munich",
+      "description": "Current Grade: 2.3. Bachelor's Thesis: 'Ensuring Production-Readiness and Exploring LLM-Driven Evaluation in a Career Guidance Platform' (Grade: 1.0)",
+      "tags": ["Computer Science", "Software Engineering", "Machine Learning"]
     },
     {
-      "year": "2020 - 2024",
-      "title": "Bachelor of Science in Computer Science",
-      "organization": "Technical University",
-      "description": "Graduated with honors. Focused on software engineering, web technologies, and database systems. Bachelor thesis on modern web application architectures.",
-      "tags": ["Software Engineering", "Web Development", "Databases"]
+      "year": "October 2013 - July 2021",
+      "title": "Abitur",
+      "organization": "Gymnasium Augustusburg",
+      "description": "Grade: 1.3",
+      "tags": ["Mathematics", "Physics", "Computer Science"]
     }
   ],
   "experience": [
     {
-      "year": "2023 - Present",
-      "title": "Freelance Software Developer",
-      "organization": "Self-Employed",
-      "description": "Developing custom web applications and websites for clients. Projects include e-commerce platforms, business websites, and internal tools for small businesses.",
-      "tags": ["React", "Next.js", "Full-Stack Development"]
+      "year": "October 2023 - Present",
+      "title": "Teaching Assistant",
+      "organization": "Technical University of Munich",
+      "description": "Head TA for 'Introduction to Programming' (Winter 2025). TA for 3 semesters total. TA for 'DevOps' (Summer 2025). Mentored students, designed exercises, managed live streaming and recording setup, and supported course logistics.",
+      "tags": ["Teaching", "Python", "DevOps"]
     },
     {
-      "year": "2022 - 2023",
-      "title": "Web Development Intern",
-      "organization": "Digital Agency XYZ",
-      "description": "Worked on client projects building responsive websites and web applications. Collaborated with designers and backend developers to deliver high-quality solutions.",
-      "tags": ["React", "JavaScript", "Team Collaboration"]
+      "year": "April 2022 - December 2022",
+      "title": "Intern Software Development",
+      "organization": "BMW Group",
+      "description": "Developed software solutions for internal systems. Implemented modern development practices and conducted analysis on system performance.",
+      "tags": ["Software Development", "Java", "Cloud Technologies"]
     },
     {
-      "year": "2021 - 2022",
-      "title": "Student Assistant - Web Development",
-      "organization": "University IT Department",
-      "description": "Maintained and improved university web applications. Helped with frontend development and created documentation for internal tools.",
-      "tags": ["JavaScript", "PHP", "Documentation"]
+      "year": "July 2019 & March 2018",
+      "title": "Intern",
+      "organization": "Technical University of Chemnitz",
+      "description": "Developed web platform for C++ homework assignments and submissions with integrated testing sandbox. Engineered an interactive interface for lecture hall door displays showing usage status and calendar.",
+      "tags": ["Web Development", "C++", "Full-Stack"]
+    }
+  ],
+  "projects": [
+    {
+      "year": "March 2023 - Present",
+      "title": "SwimResult: Online services for swimming competitions",
+      "description": "Used in swimming competitions for time reporting, athlete data, and live information. Provides client apps for web and mobile. Tools for live streaming.",
+      "tags": ["GoLang", "TypeScript", "MongoDB", "Docker", "Microservices"],
+      "link": "https://github.com/swimresults"
+    },
+    {
+      "year": "June 2019 - Present",
+      "title": "MyPlayPlanet: Gaming Network",
+      "description": "Working in a team of 10 developers using Agile methods. Developed a Minecraft server network based on Docker using SpringBoot microservices. Provides gaming platform with player networks and servers.",
+      "tags": ["Java", "TypeScript", "Angular", "Docker", "Microservices"],
+      "link": "https://myplayplanet.net"
+    }
+  ],
+  "honors": [
+    {
+      "year": "June 2020",
+      "title": "Saxon Computer Science Competition",
+      "organization": "State of Saxony",
+      "description": "2nd place in class 11/12. Topic: algorithms and programming.",
+      "link": "https://iw-sachsen.org/"
+    },
+    {
+      "year": "2021",
+      "title": "Jugend forscht Saxony",
+      "organization": "Jugend forscht",
+      "description": "3rd place in Saxon state round, Mathematics/Informatics. It is the biggest youth science and technology competition in Europe. Topic: 'Artificial Neural Networks and Genetic Algorithms for the Game Snake'",
+      "link": "https://www.jugend-forscht.de/"
     }
   ],
   "skills": {
     "technical": [
-      "JavaScript/TypeScript",
-      "React & Next.js",
-      "Node.js",
-      "PostgreSQL & MongoDB",
-      "Git & GitHub",
+      "Go",
+      "Java",
+      "TypeScript/JavaScript",
+      "Swift",
+      "Python",
+      "PHP",
+      "C#",
+      "C++",
+      "Angular",
+      "React",
+      "Svelte",
+      "PostgreSQL",
+      "MongoDB",
+      "MySQL",
+      "Redis",
+      "PyTorch",
+      "Tensorflow",
+      "Azure",
+      "AWS",
       "Docker",
-      "REST APIs",
-      "CSS/SCSS",
-      "Tailwind CSS",
-      "AWS & Vercel"
+      "GitHub Actions",
+      "GitLab Workflows"
     ],
-    "soft": [
-      "Problem Solving",
-      "Communication",
-      "Project Management",
-      "Client Relations",
-      "Self-Learning",
-      "Team Collaboration"
+    "languages": [
+      "German (native)",
+      "English (C2)",
+      "French (Basic)"
     ]
   }
 }

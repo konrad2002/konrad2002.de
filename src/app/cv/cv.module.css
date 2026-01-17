@@ -42,3 +42,71 @@
     flex-wrap: wrap;
     gap: 0.5rem;
 }
+
+.honors {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.honorItem {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    border: 1px solid var(--border);
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.honorYear {
+    font-weight: 600;
+    color: var(--secondary);
+    min-width: 100px;
+    flex-shrink: 0;
+}
+
+.honorContent {
+    flex-grow: 1;
+}
+
+.honorTitle {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.1rem;
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.honorOrganization {
+    font-size: 0.95rem;
+    color: var(--foreground);
+    margin-bottom: 0.5rem;
+}
+
+.honorDescription {
+    color: var(--foreground);
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+    margin-top: 0;
+}
+
+.honorLink {
+    font-size: 0.9rem;
+    color: var(--foreground);
+    border-bottom: 1px solid var(--border);
+    transition: border-color 0.2s ease;
+    text-decoration: none;
+}
+
+.honorLink:hover {
+    border-bottom-color: var(--accent);
+    color: var(--accent);
+}
+
+@media (max-width: 640px) {
+    .honorItem {
+        flex-direction: column;
+    }
+
+    .honorYear {
+        min-width: auto;
+    }
+}

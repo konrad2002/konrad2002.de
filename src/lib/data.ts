@@ -65,12 +65,30 @@ export interface TimelineItem {
   tags: string[];
 }
 
+export interface ProjectItem {
+  year: string;
+  title: string;
+  description: string;
+  tags: string[];
+  link?: string;
+}
+
+export interface HonorItem {
+  year: string;
+  title: string;
+  organization: string;
+  description: string;
+  link?: string;
+}
+
 export interface CVData {
   education: TimelineItem[];
   experience: TimelineItem[];
+  projects: ProjectItem[];
+  honors: HonorItem[];
   skills: {
     technical: string[];
-    soft: string[];
+    languages: string[];
   };
 }
 
