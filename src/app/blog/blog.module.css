@@ -17,3 +17,9 @@
     margin-bottom: 2rem;
     line-height: 1.6;
 }
+
+.tagLink {
+    border-bottom: none;
+    text-decoration: none;
+    display: inline-block;
+}
