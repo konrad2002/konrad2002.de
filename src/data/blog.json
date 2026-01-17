@@ -1,0 +1,46 @@
+[
+  {
+    "id": "building-modern-portfolio",
+    "slug": "building-modern-portfolio",
+    "title": "Building a Modern Portfolio with Next.js",
+    "excerpt": "A deep dive into creating a professional portfolio website using Next.js, TypeScript, and modern web development practices.",
+    "content": "Full blog post content would go here...",
+    "date": "2026-01-15",
+    "readTime": "8 min read",
+    "tags": ["Next.js", "Web Development", "Portfolio"],
+    "published": true
+  },
+  {
+    "id": "typescript-tips",
+    "slug": "typescript-tips-tricks",
+    "title": "TypeScript Tips and Tricks for React Developers",
+    "excerpt": "Essential TypeScript patterns and best practices that will make your React code more maintainable and type-safe.",
+    "content": "Full blog post content would go here...",
+    "date": "2025-12-20",
+    "readTime": "6 min read",
+    "tags": ["TypeScript", "React", "Best Practices"],
+    "published": true
+  },
+  {
+    "id": "dark-mode-css",
+    "slug": "implementing-dark-mode-css",
+    "title": "Implementing Dark Mode with CSS Variables",
+    "excerpt": "Learn how to create a professional dark theme using CSS custom properties without any JavaScript complexity.",
+    "content": "Full blog post content would go here...",
+    "date": "2025-11-10",
+    "readTime": "5 min read",
+    "tags": ["CSS", "Design", "Dark Mode"],
+    "published": true
+  },
+  {
+    "id": "api-design",
+    "slug": "rest-api-design-principles",
+    "title": "REST API Design Principles",
+    "excerpt": "Best practices for designing clean, maintainable, and scalable REST APIs that developers love to use.",
+    "content": "Full blog post content would go here...",
+    "date": "2025-10-05",
+    "readTime": "10 min read",
+    "tags": ["API", "Backend", "Architecture"],
+    "published": true
+  }
+]

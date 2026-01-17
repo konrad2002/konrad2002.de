@@ -1,0 +1,30 @@
+{
+  "lastUpdated": "2026-01-17",
+  "sections": [
+    {
+      "title": "Currently Learning",
+      "content": "Diving deep into advanced TypeScript patterns and exploring serverless architectures with AWS Lambda and Edge Functions.",
+      "tags": ["TypeScript", "Serverless", "AWS"]
+    },
+    {
+      "title": "Working On",
+      "content": "Building my personal portfolio website with Next.js and developing a SaaS product for freelance project management.",
+      "tags": ["Next.js", "SaaS", "Project Management"]
+    },
+    {
+      "title": "Academic Focus",
+      "content": "Completing my CS Master's thesis on distributed systems and real-time data processing. Expected completion: June 2026.",
+      "tags": ["Distributed Systems", "Master's Thesis"]
+    },
+    {
+      "title": "Reading",
+      "content": "\"Designing Data-Intensive Applications\" by Martin Kleppmann and various articles on system design and architecture patterns.",
+      "tags": ["Books", "System Design"]
+    },
+    {
+      "title": "Side Projects",
+      "content": "Contributing to open-source projects and building small web tools that solve everyday problems I encounter.",
+      "tags": ["Open Source", "Web Tools"]
+    }
+  ]
+}

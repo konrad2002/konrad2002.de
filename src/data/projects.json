@@ -1,0 +1,52 @@
+[
+  {
+    "id": "portfolio-website",
+    "title": "Personal Portfolio Website",
+    "description": "Modern portfolio website built with Next.js featuring dark theme, responsive design, and interactive components. Showcases projects, blog posts, and professional timeline.",
+    "category": "Personal",
+    "year": "2026",
+    "tags": ["Next.js", "TypeScript", "React", "CSS Modules"],
+    "link": "https://github.com/konrad2002/portfolio",
+    "featured": true
+  },
+  {
+    "id": "ecommerce-shop",
+    "title": "E-Commerce Platform",
+    "description": "Full-stack e-commerce solution for a local retailer with product catalog, shopping cart, and payment integration.",
+    "category": "Client Work",
+    "year": "2025",
+    "tags": ["Next.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
+    "link": "https://example-shop.com",
+    "featured": true
+  },
+  {
+    "id": "task-manager",
+    "title": "Team Task Manager",
+    "description": "Collaborative task management tool with real-time updates, team workspaces, and project tracking.",
+    "category": "Web App",
+    "year": "2025",
+    "tags": ["React", "Node.js", "Socket.io", "MongoDB"],
+    "link": "https://github.com/konrad2002/task-manager",
+    "featured": false
+  },
+  {
+    "id": "weather-dashboard",
+    "title": "Weather Dashboard",
+    "description": "Clean weather forecast application with location search, 7-day forecast, and weather alerts.",
+    "category": "Tool",
+    "year": "2024",
+    "tags": ["React", "OpenWeather API", "Chart.js"],
+    "link": "https://github.com/konrad2002/weather-app",
+    "featured": false
+  },
+  {
+    "id": "markdown-editor",
+    "title": "Markdown Editor & Preview",
+    "description": "Real-time markdown editor with live preview, syntax highlighting, and export functionality.",
+    "category": "Tool",
+    "year": "2024",
+    "tags": ["Vue.js", "Monaco Editor", "Markdown"],
+    "link": "https://github.com/konrad2002/md-editor",
+    "featured": true
+  }
+]

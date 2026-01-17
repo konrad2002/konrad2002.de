@@ -1,0 +1,63 @@
+{
+  "education": [
+    {
+      "year": "2024 - Present",
+      "title": "Master of Science in Computer Science",
+      "organization": "Technical University",
+      "description": "Specializing in distributed systems and software architecture. Currently working on master's thesis about real-time data processing in distributed environments.",
+      "tags": ["Distributed Systems", "Software Architecture", "Algorithms"]
+    },
+    {
+      "year": "2020 - 2024",
+      "title": "Bachelor of Science in Computer Science",
+      "organization": "Technical University",
+      "description": "Graduated with honors. Focused on software engineering, web technologies, and database systems. Bachelor thesis on modern web application architectures.",
+      "tags": ["Software Engineering", "Web Development", "Databases"]
+    }
+  ],
+  "experience": [
+    {
+      "year": "2023 - Present",
+      "title": "Freelance Software Developer",
+      "organization": "Self-Employed",
+      "description": "Developing custom web applications and websites for clients. Projects include e-commerce platforms, business websites, and internal tools for small businesses.",
+      "tags": ["React", "Next.js", "Full-Stack Development"]
+    },
+    {
+      "year": "2022 - 2023",
+      "title": "Web Development Intern",
+      "organization": "Digital Agency XYZ",
+      "description": "Worked on client projects building responsive websites and web applications. Collaborated with designers and backend developers to deliver high-quality solutions.",
+      "tags": ["React", "JavaScript", "Team Collaboration"]
+    },
+    {
+      "year": "2021 - 2022",
+      "title": "Student Assistant - Web Development",
+      "organization": "University IT Department",
+      "description": "Maintained and improved university web applications. Helped with frontend development and created documentation for internal tools.",
+      "tags": ["JavaScript", "PHP", "Documentation"]
+    }
+  ],
+  "skills": {
+    "technical": [
+      "JavaScript/TypeScript",
+      "React & Next.js",
+      "Node.js",
+      "PostgreSQL & MongoDB",
+      "Git & GitHub",
+      "Docker",
+      "REST APIs",
+      "CSS/SCSS",
+      "Tailwind CSS",
+      "AWS & Vercel"
+    ],
+    "soft": [
+      "Problem Solving",
+      "Communication",
+      "Project Management",
+      "Client Relations",
+      "Self-Learning",
+      "Team Collaboration"
+    ]
+  }
+}
