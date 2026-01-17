@@ -94,7 +94,7 @@ export interface CVData {
 
 // Helper function to get the data directory path
 function getDataPath(filename: string): string {
-  return path.join(process.cwd(), 'src', 'data', filename);
+  return path.join(process.cwd(), 'public', 'data', filename);
 }
 
 // Helper function to read and parse JSON files
