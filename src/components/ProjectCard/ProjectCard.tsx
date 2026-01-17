@@ -12,11 +12,8 @@ interface ProjectCardProps {
 }
 
 export default function ProjectCard({ title, description, tags, link, year, category }: ProjectCardProps) {
-    const CardWrapper = link ? Link : 'div';
-    const wrapperProps = link ? { href: link } : {};
-
-    return (
-        <CardWrapper {...wrapperProps} className={styles.projectCard}>
+    const cardContent = (
+        <>
             <div className={styles.header}>
                 <h3 className={styles.title}>{title}</h3>
                 <div className={styles.meta}>
@@ -30,6 +27,20 @@ export default function ProjectCard({ title, description, tags, link, year, cate
                     <Badge key={index} variant="default">{tag}</Badge>
                 ))}
             </div>
-        </CardWrapper>
+        </>
+    );
+
+    if (link) {
+        return (
+            <Link href={link} className={styles.projectCard}>
+                {cardContent}
+            </Link>
+        );
+    }
+
+    return (
+        <div className={styles.projectCard}>
+            {cardContent}
+        </div>
     );
 }
