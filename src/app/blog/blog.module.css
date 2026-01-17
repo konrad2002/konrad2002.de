@@ -1,0 +1,19 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 100px 2rem 2rem;
+}
+
+.container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.container p {
+    font-size: 1.1rem;
+    color: var(--secondary);
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
