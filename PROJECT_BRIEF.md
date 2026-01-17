@@ -54,10 +54,30 @@ Portfolio website for Konrad (konrad2002 on GitHub), a CS Master student and sof
 - Timeline or interactive visualization
 
 ## Technical Details
-- Framework: Next.js
-- Current structure has header component and pages folder
-- Needs proper routing and navigation setup
+- Framework: Next.js (App Router)
+- TypeScript for type safety
+- CSS Modules for styling
 - Responsive design for all devices
+
+### Data Management
+Content is stored in JSON files located in `/src/data/`:
+- `projects.json` - All project information
+- `blog.json` - Blog posts with metadata
+- `now.json` - Current activities and focus
+- `bio.json` - Personal background and skills
+- `cv.json` - Education, experience, and timeline data
+
+Data is loaded via utility functions in `/src/lib/data.ts`:
+- `getAllProjects()` - Get all projects
+- `getFeaturedProjects()` - Get featured projects only
+- `getAllBlogPosts()` - Get all published blog posts (sorted by date)
+- `getRecentBlogPosts(limit)` - Get recent blog posts
+- `getNowData()` - Get current activities
+- `getBioData()` - Get biography data
+- `getCVData()` - Get CV/timeline data
+- Various helper functions for filtering by tag, category, etc.
+
+These functions use Node.js `fs` module and work in both development and production (server-side only).
 
 ## Design Principles
 - Clean, professional dark theme
