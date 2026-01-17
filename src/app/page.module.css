@@ -1,26 +1,19 @@
 .page {
-  --gray-rgb: 0, 0, 0;
-  --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
-  --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
-
-  --button-primary-hover: #383838;
-  --button-secondary-hover: #f2f2f2;
-
   display: block;
   align-items: center;
   justify-items: center;
   min-height: 100svh;
-  padding: 80px;
-  gap: 64px;
+  padding: 80px 40px 40px;
   font-family: var(--font-roboto);
 }
 
 .mainTitle {
-  line-height: 1;
-  color: var(--foreground);
-  margin-top: calc(50vh - 80px);
-  font-weight: 1000;
-  font-size: 100px;
+  line-height: 1.1;
+  color: var(--accent);
+  margin-top: calc(40vh - 80px);
+  font-weight: 700;
+  font-size: clamp(40px, 8vw, 100px);
+  letter-spacing: -0.02em;
 }
 
 .personLabel {
@@ -30,8 +23,20 @@
 }
 
 .titleContent {
-  font-size: 50px;
+  font-size: clamp(24px, 4vw, 50px);
   font-weight: 400;
   vertical-align: middle;
   display: inline-block;
+  color: var(--secondary);
+}
+
+.titleContent a {
+  color: var(--foreground);
+  border-bottom: 1px solid var(--border);
+  transition: all 0.2s ease;
+}
+
+.titleContent a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
 }
