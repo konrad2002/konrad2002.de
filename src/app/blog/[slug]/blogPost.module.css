@@ -1,0 +1,145 @@
+.article {
+    padding: 100px 0 4rem;
+}
+
+.header {
+    margin-bottom: 3rem;
+}
+
+.meta {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin: 2rem 0 1.5rem;
+    font-size: 0.95rem;
+    color: var(--secondary);
+}
+
+.date {
+    font-style: italic;
+}
+
+.readTime {
+    position: relative;
+    padding-left: 1rem;
+}
+
+.readTime::before {
+    content: "·";
+    position: absolute;
+    left: 0.4rem;
+}
+
+.title {
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 600;
+    color: var(--accent);
+    margin: 0 0 1.5rem 0;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.content {
+    margin-top: 3rem;
+}
+
+.excerpt {
+    font-size: 1.2rem;
+    color: var(--foreground);
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.body {
+    color: var(--foreground);
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+.body p {
+    margin-bottom: 1.5rem;
+}
+
+.body h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--accent);
+    margin: 2.5rem 0 1rem;
+}
+
+.body h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--accent);
+    margin: 2rem 0 0.75rem;
+}
+
+.body ul, .body ol {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+}
+
+.body li {
+    margin-bottom: 0.5rem;
+}
+
+.body code {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 0.2rem 0.4rem;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+    border: 1px solid var(--border);
+}
+
+.body pre {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border);
+    padding: 1.5rem;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+}
+
+.body pre code {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.body blockquote {
+    border-left: 3px solid var(--accent);
+    padding-left: 1.5rem;
+    margin: 1.5rem 0;
+    color: var(--secondary);
+    font-style: italic;
+}
+
+.body a {
+    color: var(--foreground);
+    border-bottom: 1px solid var(--border);
+}
+
+.body a:hover {
+    border-bottom-color: var(--accent);
+}
+
+@media (max-width: 640px) {
+    .article {
+        padding: 80px 0 2rem;
+    }
+
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .excerpt {
+        font-size: 1.1rem;
+    }
+}
