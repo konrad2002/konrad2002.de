@@ -1,0 +1,52 @@
+.projectCard {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border);
+    padding: 1.5rem;
+    transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+}
+
+.projectCard:hover {
+    border-color: var(--accent);
+    background: rgba(255, 255, 255, 0.05);
+    transform: translateY(-2px);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.75rem;
+}
+
+.title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--accent);
+    margin: 0;
+}
+
+.meta {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--secondary);
+}
+
+.year, .category {
+    white-space: nowrap;
+}
+
+.description {
+    color: var(--foreground);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+}

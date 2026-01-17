@@ -1,0 +1,25 @@
+.badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.85rem;
+    border: 1px solid var(--border);
+    background: rgba(255, 255, 255, 0.03);
+    color: var(--foreground);
+    transition: all 0.2s ease;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.badge.accent {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.badge.secondary {
+    color: var(--secondary);
+}
+
+.badge:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: var(--accent);
+}

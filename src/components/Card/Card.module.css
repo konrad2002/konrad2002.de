@@ -1,0 +1,21 @@
+.card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border);
+    padding: 1.5rem;
+    transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.card:hover {
+    border-color: var(--accent);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.cardLink {
+    text-decoration: none;
+    border-bottom: none;
+    display: block;
+}
+
+.cardLink:hover {
+    border-bottom: none;
+}
