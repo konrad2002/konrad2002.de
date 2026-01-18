@@ -7,7 +7,9 @@
     "year": "2026",
     "tags": ["Next.js", "TypeScript", "React", "CSS Modules"],
     "link": "https://github.com/konrad2002/portfolio",
-    "featured": true
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
   },
   {
     "id": "ecommerce-shop",
@@ -17,7 +19,9 @@
     "year": "2025",
     "tags": ["Next.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
     "link": "https://example-shop.com",
-    "featured": true
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1556742212-5b321e3098ea?w=600&h=400&fit=crop",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
   },
   {
     "id": "task-manager",
@@ -27,7 +31,8 @@
     "year": "2025",
     "tags": ["React", "Node.js", "Socket.io", "MongoDB"],
     "link": "https://github.com/konrad2002/task-manager",
-    "featured": false
+    "featured": false,
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop"
   },
   {
     "id": "weather-dashboard",
@@ -37,16 +42,32 @@
     "year": "2024",
     "tags": ["React", "OpenWeather API", "Chart.js"],
     "link": "https://github.com/konrad2002/weather-app",
-    "featured": false
+    "featured": false,
+    "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=600&h=400&fit=crop",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
   },
   {
-    "id": "markdown-editor",
-    "title": "Markdown Editor & Preview",
-    "description": "Real-time markdown editor with live preview, syntax highlighting, and export functionality.",
+    "id": "swimresults",
+    "title": "SwimResults",
+    "description": "SwimResults is an online platform for swimming competitions that provides data for participating meetings and displays them in structured manner. SwimResults enables athletes, coaches, friends and family to view start lists, results, live timings and analysis for different athletes, teams and competitions.",
+    "category": "App",
+    "year": "2023",
+    "tags": ["Go", "Angular", "Swift", "Kotlin", "MongoDB", "PHP"],
+    "link": "https://github.com/swimresults",
+    "featured": true,
+    "image": "https://swimresults.de/images/blog/blog-ios.png",
+    "icon": "/images/projects/sr_icon.png"
+  },
+  {
+    "id": "tmate",
+    "title": "tMate",
+    "description": "Team Member Administration Tool (tMate) is a tool for sport clubs for managing their team members including special features for custom queries, fully customisable data sheets, medical certificates and mass mail services.",
     "category": "Tool",
-    "year": "2024",
-    "tags": ["Vue.js", "Monaco Editor", "Markdown"],
-    "link": "https://github.com/konrad2002/md-editor",
-    "featured": true
+    "year": "2020",
+    "tags": ["Angular", "Go", "MongoDB"],
+    "link": "https://github.com/konrad2002/tmate",
+    "featured": true,
+    "image": "/images/projects/tmate_banner.jpg",
+    "icon": "https://avatars.githubusercontent.com/u/68645507?s=200&v=4"
   }
 ]
