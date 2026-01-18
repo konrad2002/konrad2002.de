@@ -11,6 +11,8 @@ export interface Project {
   tags: string[];
   link?: string;
   featured: boolean;
+  image?: string;
+  icon?: string;
 }
 
 export interface BlogPost {

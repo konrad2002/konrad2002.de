@@ -43,15 +43,7 @@ export default function Home() {
                     {featuredProjects.length > 0 ? (
                         <div className={styles.grid}>
                             {featuredProjects.map((project) => (
-                                <ProjectCard
-                                    key={project.id}
-                                    title={project.title}
-                                    description={project.description}
-                                    tags={project.tags}
-                                    link={project.link}
-                                    year={project.year}
-                                    category={project.category}
-                                />
+                                <ProjectCard key={project.id} project={project} />
                             ))}
                         </div>
                     ) : (

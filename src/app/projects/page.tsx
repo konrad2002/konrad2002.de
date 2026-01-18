@@ -45,15 +45,7 @@ export default async function ProjectsPage({ searchParams }: ProjectsPageProps) 
                 <Section title={category ? `Projects in ${category}` : "All Projects"}>
                     <Grid columns={3} gap="large">
                         {filteredProjects.map(project => (
-                            <ProjectCard
-                                key={project.id}
-                                title={project.title}
-                                description={project.description}
-                                tags={project.tags}
-                                link={project.link}
-                                year={project.year}
-                                category={project.category}
-                            />
+                            <ProjectCard key={project.id} project={project} />
                         ))}
                     </Grid>
                 </Section>
