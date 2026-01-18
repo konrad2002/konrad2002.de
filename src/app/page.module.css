@@ -2,7 +2,7 @@
   display: block;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 2rem 4rem;
+  padding: 64px 2rem 4rem;
 }
 
 /* Hero Section */
@@ -203,26 +203,26 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .page {
-    padding: 30px 1.5rem 2rem;
+    padding: 64px 1.5rem 2rem;
   }
 
   .hero {
     min-height: auto;
     margin-bottom: 3rem;
-    padding-bottom: 160px;
+    padding: 0;
   }
 
   .heroContent {
     flex-direction: column;
     text-align: center;
-    gap: 0;
-    padding: 2rem 0 0 0;
+    gap: 2rem;
+    padding: 0;
   }
 
   .heroImageContainer {
     position: static;
-    margin-top: -160px;
-    margin-bottom: 0;
+    margin: 0;
+    order: -1;
   }
 
   .heroImage {
@@ -254,5 +254,11 @@
 
   .quickLinks {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .page {
+    padding: 64px 1rem 2rem;
   }
 }

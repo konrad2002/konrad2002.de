@@ -1,7 +1,7 @@
 .container {
     width: 100%;
-    margin: 70px auto 0 auto;
-    padding: 0 2rem;
+    margin: 0 auto;
+    padding: 64px 2rem 0;
 }
 
 .container.small {
@@ -20,8 +20,14 @@
     max-width: 100%;
 }
 
+@media (max-width: 768px) {
+    .container {
+        padding: 64px 1.5rem 0;
+    }
+}
+
 @media (max-width: 640px) {
     .container {
-        padding: 0 1rem;
+        padding: 64px 1rem 0;
     }
 }
