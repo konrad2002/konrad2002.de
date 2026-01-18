@@ -2,37 +2,37 @@
   "intro": {
     "title": "Hi, I'm Konrad",
     "subtitle": "CS Master Student & Software Developer",
-    "content": "I'm a Computer Science master's student with a passion for building useful software products and web applications. When I'm not studying, I work on freelance projects and develop my own tools and products."
+    "content": ""
   },
   "sections": [
     {
       "id": "background",
       "title": "Background",
-      "content": "My journey into software development started during my undergraduate studies when I discovered the joy of solving real-world problems through code. Since then, I've been continuously learning and building projects that range from customer websites to complex web applications."
+      "content": ""
     },
     {
       "id": "experience",
       "title": "What I Do",
-      "content": "I specialize in web development, primarily working with modern JavaScript/TypeScript frameworks like React and Next.js. I enjoy the full spectrum of development - from designing user interfaces to architecting backend systems and databases."
+      "content": ""
     },
     {
       "id": "interests",
       "title": "Interests & Hobbies",
-      "content": "Beyond coding, I'm fascinated by system design, developer tools, and the intersection of technology and user experience. I enjoy contributing to open-source projects and sharing knowledge through technical writing."
+      "content": ""
     }
   ],
   "skills": [
     {
       "category": "Frontend",
-      "items": ["React", "Next.js", "TypeScript", "CSS/SCSS", "Tailwind CSS"]
+      "items": ["TODO"]
     },
     {
       "category": "Backend",
-      "items": ["Node.js", "Express", "PostgreSQL", "MongoDB", "REST APIs"]
+      "items": ["TODO"]
     },
     {
       "category": "Tools & Others",
-      "items": ["Git", "Docker", "AWS", "Vercel", "Figma"]
+      "items": ["TODO"]
     }
   ]
 }

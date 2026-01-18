@@ -129,7 +129,7 @@
   {
     "id": "tidal-harvest",
     "title": "TidalHarvest",
-    "description": "As part of the Hetzner GameJam 2023 me and my team were not just bloody beginners in game development but also created the game TidalHarvest. It is focused around cultivating fields next to the river Nile with different crops. The rising and falling water of the river can help to increase the humidity but might also destroy the crops.",
+    "description": "As part of the Hetzner GameJam 2023 with the topic \"Cycle\", my team and I were not just bloody beginners in game development but also created the game TidalHarvest. It is focused around cultivating fields next to the river Nile with different crops. The rising and falling water of the river can help to increase the humidity but might also destroy the crops.",
     "category": "Game",
     "year": "2023",
     "tags": ["Angular", "TypeScript", "NodeJS"],
@@ -140,12 +140,12 @@
   {
     "id": "silent-gardener",
     "title": "Silent Gardener",
-    "description": "As part of the Hetzner GameJam 2025 me and my team ...",
+    "description": "As part of the Hetzner GameJam 2025 my team and I created a gardening game for the given topic \"Balance\". The game features a monk that is growing unknown plants in his monastery. The goal is too keep the balance of materials provided to the plants like water and fertiliser so they will not die.",
     "category": "Game",
     "year": "2025",
     "tags": ["Godot", "GD Script"],
     "link": "https://github.com/Entjic/silent-gardener",
     "featured": false,
-    "image": "/images/projects/tidalharvest_banner.jpg"
+    "image": "/images/projects/silentgardener_banner.jpeg"
   }
 ]
