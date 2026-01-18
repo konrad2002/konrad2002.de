@@ -7,15 +7,56 @@
 
 /* Hero Section */
 .hero {
+  position: relative;
   min-height: 60vh;
   display: flex;
   align-items: center;
   margin-bottom: 5rem;
-  padding: 2rem 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.heroBanner {
+  position: absolute;
+  top: 0;
+  left: -2rem;
+  right: -2rem;
+  height: 100%;
+  background: url("/images/projects/tmate_banner.jpg") center center / cover no-repeat;
+  border-bottom: 1px solid var(--border);
+  z-index: 0;
+  opacity: 0.15;
 }
 
 .heroContent {
+  position: static;
   width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  z-index: 1;
+  padding: 2rem 0 0 0;
+}
+
+.heroImageContainer {
+  flex-shrink: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.heroImage {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.3));
+  display: block;
+}
+
+.heroText {
+  flex: 1;
+  padding-left: 220px;
 }
 
 .mainTitle {
@@ -168,6 +209,30 @@
   .hero {
     min-height: auto;
     margin-bottom: 3rem;
+    padding-bottom: 160px;
+  }
+
+  .heroContent {
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+    padding: 2rem 0 0 0;
+  }
+
+  .heroImageContainer {
+    position: static;
+    margin-top: -160px;
+    margin-bottom: 0;
+  }
+
+  .heroImage {
+    width: 160px;
+    height: 160px;
+  }
+
+  .heroText {
+    padding-left: 0;
+    width: 100%;
   }
 
   .mainTitle {
