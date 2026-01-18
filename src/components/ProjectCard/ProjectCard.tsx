@@ -27,15 +27,15 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             )}
             <div className={styles.content}>
                 <div className={styles.header}>
+                    <div className={styles.meta}>
+                        {year && <span className={styles.year}>{year}</span>}
+                        {category && <span className={styles.category}>{category}</span>}
+                    </div>
                     <div className={styles.titleSection}>
                         {icon && (
                             <img src={icon} alt={title} className={styles.icon} />
                         )}
                         <h3 className={styles.title}>{title}</h3>
-                    </div>
-                    <div className={styles.meta}>
-                        {year && <span className={styles.year}>{year}</span>}
-                        {category && <span className={styles.category}>{category}</span>}
                     </div>
                 </div>
                 <p className={styles.description}>{description}</p>

@@ -39,10 +39,9 @@
 
 .header {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
     margin-bottom: 0.75rem;
-    gap: 1rem;
 }
 
 .titleSection {
@@ -72,7 +71,8 @@
     gap: 0.5rem;
     font-size: 0.85rem;
     color: var(--secondary);
-    flex-shrink: 0;
+    justify-content: flex-end;
+    align-self: flex-end;
 }
 
 .year, .category {
