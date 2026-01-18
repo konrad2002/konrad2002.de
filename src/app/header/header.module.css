@@ -91,25 +91,24 @@
         right: 0;
         flex-direction: column;
         gap: 0;
-        /* closed state defaults */
-        background: transparent;
-        border-bottom: none;
-        padding: 0;
-        max-height: 0;
+        /* keep background during animation to avoid flicker */
+        background: rgba(13, 13, 13, 0.98);
+        border-bottom: 1px solid var(--border);
+        padding: 12px 0;
         overflow: hidden;
+        /* animated closed/open states */
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
         pointer-events: none;
-        visibility: hidden;
-        transition: max-height 0.3s ease, padding 0.2s ease, visibility 0s linear 0.3s;
+        will-change: transform, opacity;
+        transition: transform 180ms ease, opacity 160ms ease;
     }
 
     .headerLinks.open {
-        max-height: 500px;
-        padding: 12px 0;
-        background: rgba(13, 13, 13, 0.98);
-        border-bottom: 1px solid var(--border);
+        transform: scaleY(1);
+        opacity: 1;
         pointer-events: auto;
-        visibility: visible;
-        transition: max-height 0.3s ease, padding 0.2s ease, visibility 0s;
     }
 
     .headerLink {
