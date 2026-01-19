@@ -23,7 +23,7 @@ export default function NowPage() {
                 />
 
                 <p className={styles.description}>
-                    This is a <a href="https://nownownow.com/about" target="_blank" rel="noopener noreferrer">now page</a>, inspired by <a href="https://sive.rs/" target="_blank" rel="noopener noreferrer">Derek Sivers</a>. It's a snapshot of what I'm currently focused on.
+                    This is a <a href="https://nownownow.com/about" target="_blank" rel="noopener noreferrer">now page</a>. It's a snapshot of what I'm currently focused on.
                 </p>
 
                 <div className={styles.sections}>
