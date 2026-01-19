@@ -20,7 +20,7 @@ export default function MarkdownContent({ content }: MarkdownContentProps) {
                     ol: ({ node, ...props }) => <ol className={styles.ol} {...props} />,
                     li: ({ node, ...props }) => <li className={styles.li} {...props} />,
                     blockquote: ({ node, ...props }) => <blockquote className={styles.blockquote} {...props} />,
-                    code: ({ node, inline, ...props }) => 
+                    code: ({ node, inline, ...props }: any) => 
                         inline ? 
                             <code className={styles.inlineCode} {...props} /> :
                             <code className={styles.codeBlock} {...props} />,
