@@ -2,13 +2,13 @@
   "intro": {
     "title": "Hi, I'm Konrad",
     "subtitle": "CS Master Student & Software Developer",
-    "content": ""
+    "content": "I'm currently pursuing my Master's degree and working as a teaching assistant in the Computer Science department at [TUM](https://tum.de). As a self-employed developer, I'm building [SwimResults](https://swimresults.de), a comprehensive software platform for swimming competitions. In my free time, I enjoy swimming, skiing, hiking, and I have a passion for trains."
   },
   "sections": [
     {
-      "id": "background",
-      "title": "Background",
-      "content": ""
+      "id": "education",
+      "title": "Education",
+      "content": "In 2021, I completed my Abitur with a grade of 1.3. During my school years, I participated in various competitions, including the [Saxon Computer Science Competition](https://iw-sachsen.org/) where I secured second place. Another notable achievement was my participation in [Jugend forscht](https://www.jugend-forscht.de/), where I earned third place in the Saxon state competition with my research on combining backpropagation and genetic algorithms for training neural networks to play the game *Snake*.\n\nFrom 2021 to 2025, I completed my Bachelor's degree in Informatics at [TUM](https://tum.de), and I'm currently pursuing the consecutive Master's program in Informatics at the same institution."
     },
     {
       "id": "experience",
@@ -18,7 +18,7 @@
     {
       "id": "interests",
       "title": "Interests & Hobbies",
-      "content": ""
+      "content": "### Swimming\n\nFor over 15 years, I've been a member of my local swim club \"Schwimmteam Erzgebirge e.V.\" As an active competitive swimmer for most of this time, I also took on the responsibility of managing the club's IT infrastructure, website, and tools starting in 2017. Since 2023, I've served as head of youth and as a member of the board.\n\n### Accordion and Music\n\nMy musical journey began with glockenspiel in kindergarten and melodica in primary school, before I started playing the accordion in 2011. I later joined the accordion orchestra \"Fisarmonicer\", where I played second voice at numerous concerts. In 2018, we traveled to San Francisco together for two memorable performances. After starting my university studies, I had to step back from the orchestra due to time constraints, but music remains an important part of my life."
     }
   ],
   "skills": [

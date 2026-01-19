@@ -3,6 +3,7 @@ import Container from "@/components/Container/Container";
 import Hero from "@/components/Hero/Hero";
 import { getBioData } from "@/lib/data";
 import styles from "./me.module.css";
+import MarkdownContent from "@/components/MarkdownContent/MarkdownContent";
 
 export default function MePage() {
     const bioData = getBioData();
@@ -17,12 +18,14 @@ export default function MePage() {
                 />
 
                 <div className={styles.content}>
-                    <p className={styles.introContent}>{bioData.intro.content}</p>
+                    <div className={styles.introContent}>
+                        <MarkdownContent content={bioData.intro.content} />
+                    </div>
 
                     {bioData.sections.map((section) => (
                         <section key={section.id} className={styles.section}>
                             <h2>{section.title}</h2>
-                            <p>{section.content}</p>
+                            <MarkdownContent content={section.content} />
                         </section>
                     ))}
 
