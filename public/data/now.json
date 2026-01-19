@@ -1,30 +1,30 @@
 {
-  "lastUpdated": "2026-01-18",
+  "lastUpdated": "2026-01-19",
   "sections": [
     {
       "title": "Currently Learning",
-      "content": "TODO",
-      "tags": ["TypeScript", "Serverless", "AWS"]
+      "content": "After writing and publishing my first Swift application I recently was able to get my first Android app using Kotlin and Jetpack Compose into the Google Play Store. Since then I am still learning about new functionality and I keep improving my app.\n\nBy building my own portfolio website I am most recently learning a lot about React and Next.js.",
+      "tags": ["Jetpack Compose", "Kotlin", "React", "Next.js"]
     },
     {
       "title": "Working On",
-      "content": "TODO",
-      "tags": ["Next.js", "SaaS", "Project Management"]
+      "content": "In cooperation with the \"German Museum\" in Munich and the LMU I am creating a web application that makes a virtual simplified version of the \"Eitz Reinharmonium\" accessible to everyone.\n\nIn a seminar project at the chair for applied education technologies I am part of a team that builds a new tool for assessing equal contributions of students in university programming assignments by finding useful metrics and LLM-based categorisation of the meaningfulness of student's contributions.",
+      "tags": ["Harmonium", "Deutsches Museum München", "programming team contributions"]
     },
     {
       "title": "Academic Focus",
-      "content": "TODO",
-      "tags": ["Distributed Systems", "Master's Thesis"]
+      "content": "As a head TA for \"Introduction to Programming\" and a TA for \"Patterns in Software Engineering\" I focus on teaching software engineering concepts to students. Even though this is already my fifth time being a tutor I keep learning new things when interacting with the students. Additionally I am taking two courses in music at the LMU (\"Satzlehre\" and \"Formenlehre\") which is not just surprisingly interesting but also broadens my horizon towards humanities.",
+      "tags": ["Teaching Assistant", "Musicology"]
     },
     {
-      "title": "Reading",
-      "content": "TODO",
-      "tags": ["Books", "System Design"]
+      "title": "SwimResults",
+      "content": "My \"passion project\" SwimResults is a software for swimming competitions that brings live information to the devices of the participants and their friends. Currently I focus on refining the recently publish Android app as well as new tools for simplifying the integration process for new competitions and customers (SwimResults Manager). Therefore I am also working on expanding the supported timing systems and software to support OMEGA systems with CPS-Schwimm.",
+      "tags": ["Android App", "SwimResults Manager", "CPS-Schwimm"]
     },
     {
-      "title": "Side Projects",
-      "content": "TODO",
-      "tags": ["Open Source", "Web Tools"]
+      "title": "Games",
+      "content": "Besides my all-time favourite \"Minecraft\" I recently started a new game in \"Red Dead Redemption 2\" focusing a lot on the details, small dialogs and encounters that I did not notice when playing the game the first time. I also started a new world in \"Transport Fever 2\" not just to build a large railway system on a bigger map but also to manage my excitement for the upcoming 3rd iteration of the game.",
+      "tags": ["Minecraft", "Red Dead Redemption 2", "Transport Fever 2"]
     }
   ]
 }
