@@ -13,26 +13,26 @@
     {
       "id": "experience",
       "title": "What I Do",
-      "content": ""
+      "content": "As a teaching assistant at TUM, I serve as head TA for \"Introduction to Programming\" and support \"Patterns in Software Engineering\". Over five semesters in this role, I've focused on mentoring students, designing exercises, and managing course logistics. Each semester brings new insights from working with students as they progress from fundamental concepts to building complete applications.\n\nMy primary personal project is [SwimResults](https://swimresults.de), a comprehensive platform for swimming competitions that I've been developing since 2023. The platform delivers live timing, results, and start lists to athletes, coaches, and spectators through web and mobile applications.\n\nI've been involved in several research and development projects at university, including a collaboration with the German Museum in Munich and LMU to create a virtual version of the Eitz Reinharmonium, making this historic instrument accessible through a web application.\n\nMy professional experience includes internships at [BMW](https://www.bmwgroup.com/), where I worked on software development with Java and cloud technologies, and at [TU Chemnitz](https://www.tu-chemnitz.de/), where I developed a web platform for C++ homework submissions and an interactive display system for lecture hall availability. Over the years, I've also created various websites, from Joomla-based platforms for swimming associations to custom web applications."
     },
     {
       "id": "interests",
       "title": "Interests & Hobbies",
-      "content": "### Swimming\n\nFor over 15 years, I've been a member of my local swim club \"Schwimmteam Erzgebirge e.V.\" As an active competitive swimmer for most of this time, I also took on the responsibility of managing the club's IT infrastructure, website, and tools starting in 2017. Since 2023, I've served as head of youth and as a member of the board.\n\n### Accordion and Music\n\nMy musical journey began with glockenspiel in kindergarten and melodica in primary school, before I started playing the accordion in 2011. I later joined the accordion orchestra \"Fisarmonicer\", where I played second voice at numerous concerts. In 2018, we traveled to San Francisco together for two memorable performances. After starting my university studies, I had to step back from the orchestra due to time constraints, but music remains an important part of my life."
+      "content": "### Swimming and Sport\n\nFor over 15 years, I've been a member of my local swim club \"Schwimmteam Erzgebirge e.V.\" As an active competitive swimmer for most of this time, I also took on the responsibility of managing the club's IT infrastructure, website, and tools starting in 2017. Since 2023, I've served as head of youth and as a member of the board. Besides swimming I also enjoy going for a hike as well as cross-country skiing in the winter. In 2020 I completed the [En Svensk Klassiker](https://ensvenskklassiker.se/), a Swedish endurance challenge consisting of four iconic events: Vasaloppet (90km cross-country skiing), Vätternrundan (300km cycling), Vansbrosimningen (3km open water swimming), and Lidingöloppet (30km trail running).\n\n### Accordion and Music\n\nMy musical journey began with glockenspiel in kindergarten and melodica in primary school, before I started playing the accordion in 2011. I later joined the accordion orchestra \"Fisarmonicer\", where I played second voice at numerous concerts. In 2018, we traveled to San Francisco together for two memorable performances. After starting my university studies, I had to step back from the orchestra due to time constraints, but music remains an important part of my life."
     }
   ],
   "skills": [
     {
       "category": "Frontend",
-      "items": ["TODO"]
+      "items": ["Angular", "React", "Svelte", "TypeScript/JavaScript", "Swift", "Kotlin"]
     },
     {
       "category": "Backend",
-      "items": ["TODO"]
+      "items": ["Go", "Java", "Python", "PHP", "C#", "C++", "PostgreSQL", "MongoDB", "MySQL", "Redis"]
     },
     {
       "category": "Tools & Others",
-      "items": ["TODO"]
+      "items": ["Docker", "Azure", "AWS", "GitHub Actions", "GitLab Workflows", "PyTorch", "TensorFlow", "Godot"]
     }
   ]
 }
