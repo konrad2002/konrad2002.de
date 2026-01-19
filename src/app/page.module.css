@@ -57,6 +57,7 @@
 .heroText {
   flex: 1;
   padding-left: 220px;
+  padding-right: 2rem;
 }
 
 .mainTitle {
@@ -264,6 +265,7 @@
 
   .heroText {
     padding-left: 0;
+    padding-right: 0;
     width: 100%;
   }
 
@@ -273,6 +275,10 @@
 
   .titleContent {
     font-size: clamp(18px, 3vw, 32px);
+  }
+
+  .socialLinks {
+    justify-content: center;
   }
 
   .section h2 {
