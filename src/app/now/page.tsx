@@ -2,6 +2,7 @@ import Header from "@/app/header/header";
 import Container from "@/components/Container/Container";
 import Hero from "@/components/Hero/Hero";
 import Badge from "@/components/Badge/Badge";
+import MarkdownContent from "@/components/MarkdownContent/MarkdownContent";
 import { getNowData } from "@/lib/data";
 import styles from "./now.module.css";
 
@@ -30,7 +31,9 @@ export default function NowPage() {
                     {data.sections.map((section, index) => (
                         <div key={index} className={styles.section}>
                             <h2 className={styles.sectionTitle}>{section.title}</h2>
-                            <p className={styles.sectionContent}>{section.content}</p>
+                            <div className={styles.sectionContent}>
+                                <MarkdownContent content={section.content} />
+                            </div>
                             {section.tags && section.tags.length > 0 && (
                                 <div className={styles.tags}>
                                     {section.tags.map(tag => (

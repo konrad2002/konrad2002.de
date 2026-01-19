@@ -2,6 +2,7 @@ import Header from "@/app/header/header";
 import Container from "@/components/Container/Container";
 import Badge from "@/components/Badge/Badge";
 import Button from "@/components/Button/Button";
+import MarkdownContent from "@/components/MarkdownContent/MarkdownContent";
 import { getBlogPostBySlug, getAllBlogPosts } from "@/lib/data";
 import { notFound } from "next/navigation";
 import styles from "./blogPost.module.css";
@@ -59,7 +60,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                     <div className={styles.content}>
                         <p className={styles.excerpt}>{post.excerpt}</p>
                         <div className={styles.body}>
-                            {post.content}
+                            <MarkdownContent content={post.content} />
                         </div>
                     </div>
                 </article>
