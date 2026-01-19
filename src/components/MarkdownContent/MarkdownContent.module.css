@@ -1,0 +1,160 @@
+.markdown {
+    width: 100%;
+}
+
+/* Headings */
+.h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin: 2rem 0 1rem 0;
+    line-height: 1.3;
+}
+
+.h1:first-child {
+    margin-top: 0;
+}
+
+.h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--accent);
+    margin: 1.75rem 0 0.75rem 0;
+    line-height: 1.3;
+}
+
+.h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--secondary);
+    margin: 1.5rem 0 0.5rem 0;
+    line-height: 1.3;
+}
+
+.h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--foreground);
+    margin: 1rem 0 0.5rem 0;
+}
+
+/* Paragraphs */
+.p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--foreground);
+    margin: 1rem 0;
+}
+
+/* Links */
+.link {
+    color: var(--foreground);
+    border-bottom: 1px solid var(--border);
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+}
+
+/* Lists */
+.ul,
+.ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.li {
+    margin: 0.5rem 0;
+    color: var(--foreground);
+    line-height: 1.7;
+}
+
+/* Blockquote */
+.blockquote {
+    border-left: 3px solid var(--accent);
+    padding-left: 1.5rem;
+    margin: 1.5rem 0;
+    color: var(--secondary);
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+/* Code */
+.inlineCode {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid var(--border);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    color: var(--foreground);
+}
+
+.pre {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border);
+    padding: 1rem;
+    margin: 1.5rem 0;
+    overflow-x: auto;
+    border-radius: 0;
+}
+
+.codeBlock {
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    color: var(--foreground);
+}
+
+/* Images */
+.img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 2rem 0;
+    border: 1px solid var(--border);
+}
+
+/* Tables */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+}
+
+.thead {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.tr {
+    border-bottom: 1px solid var(--border);
+}
+
+.th,
+.td {
+    padding: 0.75rem;
+    text-align: left;
+    color: var(--foreground);
+}
+
+.th {
+    font-weight: 600;
+    color: var(--accent);
+}
+
+.tr:hover {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+/* Spacing adjustments */
+.markdown > *:first-child {
+    margin-top: 0;
+}
+
+.markdown > *:last-child {
+    margin-bottom: 0;
+}
