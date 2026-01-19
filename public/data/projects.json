@@ -74,7 +74,7 @@
   {
     "id": "dna-decoder",
     "title": "DNA-Decoder",
-    "description": "This little web-based tool takes a sequence of DNA or RNA and performs frame-wise codon decoding into amino acids. The are then displayed as their single character representation. The tool respects the occurance of start and stop codons.",
+    "description": "This web-based tool takes a sequence of DNA or RNA and performs frame-wise codon decoding into amino acids. They are then displayed as their single character representation. The tool respects the occurrence of start and stop codons.",
     "category": "Tool",
     "year": "2019",
     "tags": ["PHP"],
@@ -85,7 +85,7 @@
   {
     "id": "pi-training",
     "title": "π-Training",
-    "description": "If you ever wanted to memorise the digits of pi (or at least some of them ;)) this tool might be helpful. It lets you enter digits, counts how many you already got and indicates if there are any mistakes.",
+    "description": "If you ever wanted to memorise the digits of pi (or at least some of them ;)) this tool might be helpful. It lets you enter digits, counts how many you already got, and indicates if there are any mistakes.",
     "category": "Tool",
     "year": "2018",
     "tags": ["PHP"],
@@ -96,7 +96,7 @@
   {
     "id": "population-simulation",
     "title": "Population Simulation",
-    "description": "This tool lets you create three different populations of animals and plants based on numerous adjustable mechanics and properties. As soon as the simulation is started with given environmental parameters the individuals start to reproduce and eat each other. If the configuration was well-chosen, the ecosystem might get balanced with no species dying.",
+    "description": "This tool lets you create three different populations of animals and plants based on numerous adjustable mechanics and properties. Once the simulation is started with given environmental parameters, the individuals start to reproduce and eat each other. If the configuration was well-chosen, the ecosystem might become balanced with no species dying.",
     "category": "Tool",
     "year": "2019",
     "tags": ["JavaScript"],
@@ -107,7 +107,7 @@
   {
     "id": "snake-ai",
     "title": "Snake Ai",
-    "description": "As part of my participation at \"Jugend forscht\", the biggest youth science and technology competition in Europe, I built an Ai for the game snake. It is based on artificial neural networks and trained using a combined approach with backpropagation and genetic algorithms. The program allows up to 4 ai- or non-ai-players to compete.",
+    "description": "As part of my participation in \"Jugend forscht\", the biggest youth science and technology competition in Europe, I built an AI for the game snake. It is based on artificial neural networks and trained using a combined approach with backpropagation and genetic algorithms. The program allows up to 4 AI or non-AI players to compete.",
     "category": "Tool",
     "year": "2020",
     "tags": ["Python", "SQL"],
@@ -140,7 +140,7 @@
   {
     "id": "silent-gardener",
     "title": "Silent Gardener",
-    "description": "As part of the Hetzner GameJam 2025 my team and I created a gardening game for the given topic \"Balance\". The game features a monk that is growing unknown plants in his monastery. The goal is too keep the balance of materials provided to the plants like water and fertiliser so they will not die.",
+    "description": "As part of the Hetzner GameJam 2025, my team and I created a gardening game for the given topic \"Balance\". The game features a monk growing unknown plants in his monastery. The goal is to keep the balance of materials provided to the plants like water and fertiliser so they will not die.",
     "category": "Game",
     "year": "2025",
     "tags": ["Godot", "GD Script"],

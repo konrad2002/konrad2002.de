@@ -34,7 +34,7 @@
       "year": "July 2019 & March 2018",
       "title": "Intern",
       "organization": "Technical University of Chemnitz",
-      "description": "Developed web platform for C++ homework assignments and submissions with integrated testing sandbox. Engineered an interactive interface for lecture hall door displays showing usage status and calendar.",
+      "description": "Developed web platform for C++ homework assignments and submissions with integrated testing sandbox. Engineered an interactive interface for lecture hall door displays showing availability status and calendar.",
       "tags": ["Web Development", "C++", "Full-Stack"]
     }
   ],
