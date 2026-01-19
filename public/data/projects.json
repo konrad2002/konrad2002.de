@@ -31,7 +31,7 @@
     "year": "2021",
     "tags": ["Angular", "Java (Spring Boot)"],
     "link": "https://myplayplanet.net/",
-    "featured": true,
+    "featured": false,
     "image": "https://directus.myplayplanet.services/assets/bc3cebc4-1450-49cf-9783-6638ec93fbf1?width=1500",
     "icon": "https://logilutions.de/logilutions/images/icons/mpp.png"
   },
@@ -112,7 +112,7 @@
     "year": "2020",
     "tags": ["Python", "SQL"],
     "link": "https://github.com/konrad2002/snakeAI",
-    "featured": false,
+    "featured": true,
     "image": "https://logilutions.de/logilutions/images/snakeai.png"
   },
   {

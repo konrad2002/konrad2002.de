@@ -39,8 +39,8 @@ export default function Home() {
                                 CS Master Student & Software Developer
                             </p>
                             <p className={styles.description}>
-                                Building useful software products and web applications. 
-                                Interested in system design, developer tools, and great user experiences.
+                                Building useful software products and web applications.<br/>
+                                Interested in IT security, software engineering and physics.
                             </p>
                         </div>
                     </div>
