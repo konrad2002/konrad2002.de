@@ -43,7 +43,7 @@
     "year": "2023",
     "tags": ["PHP", "Joomla!", "MySQL"],
     "link": "https://bsv-sws.de/",
-    "featured": true,
+    "featured": false,
     "image": "https://bsv-sws.de/images/bilder/Plauener_Herbst_Mehrkampf-285-scaled.jpg",
     "icon": "https://bsv-sws.de/templates/bsv/images/logo_bsv.svg"
   },
@@ -70,6 +70,17 @@
     "featured": false,
     "image": "https://logilutions.de/logilutions/images/iesc.png",
     "icon": "https://logilutions.de/logilutions/images/icons/iesc.png"
+  },
+  {
+    "id": "ballot-box",
+    "title": "BallotBox",
+    "description": "When voting for something in a team it is sometimes better to use instant runoff voting. To simplify the counting process this tool lets you create a vote and people can join and submit there votes. Afterwards the winner is calculated, results can be downloaded as image or pdf.",
+    "category": "Tool",
+    "year": "2026",
+    "tags": ["Next.js", "Prisma.js"],
+    "link": "https://vote.konrad2002.de/",
+    "featured": true,
+    "image": "/images/projects/ballot_banner.png"
   },
   {
     "id": "dna-decoder",
