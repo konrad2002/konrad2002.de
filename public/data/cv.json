@@ -17,6 +17,13 @@
   ],
   "experience": [
     {
+      "year": "March 2023 - Present",
+      "title": "Research Assistant",
+      "organization": "Fraunhofer AISEC",
+        "description": "Conducted differential power analysis on embedded platforms, conducted research on side-channel attacks on post-quantum encryption (HQC)",
+        "tags": ["Research", "Embedded Systems", "Security"]
+    },
+    {
       "year": "October 2023 - Present",
       "title": "Teaching Assistant",
       "organization": "Technical University of Munich",
